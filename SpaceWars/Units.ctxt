@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Units
+comment0.text=\r\n\ Super\ class\ for\ all\ units\ in\ the\ game\ that\ move\ and\ have\ a\ team\r\n\ \r\n\ @author\ Albert\ Lai,\ Henry\ Ma\ \r\n\ @version\ November\ 2019\r\n
+comment1.params=speed\ red
+comment1.target=Units(int,\ boolean)
+comment1.text=\r\n\ \ Constructor\ -\ Constructor\ for\ all\ subclasses\r\n\ \ \r\n\ \ @param\ speed\ \ \ \ Speed\ of\ unit(amount\ moved\ per\ move)\r\n\ \ @param\ red\ \ \ \ \ \ Team\ of\ unit(true\ for\ red,\ false\ for\ blue)\r\n
+comment2.params=
+comment2.target=boolean\ getRed()
+comment2.text=\r\n\ Returns\ the\ team\ of\ the\ unit\r\n
+numComments=3

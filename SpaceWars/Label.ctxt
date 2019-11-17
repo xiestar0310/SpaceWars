@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Label
+comment0.text=\r\n\ A\ Label\ class\ that\ allows\ you\ to\ display\ a\ textual\ value\ on\ screen.\r\n\ <p>\r\n\ The\ Label\ is\ an\ actor,\ so\ you\ will\ need\ to\ create\ it,\ and\ then\ add\ it\ to\ the\ world\r\n\ in\ Greenfoot.\ If\ you\ keep\ a\ reference\ to\ the\ Label\ then\ you\ can\ change\ the\ text\ it\r\n\ displays.\ \ \r\n\r\n\ @author\ Amjad\ Altadmri\ \r\n\ @author\ Alex\ Li\r\n\ @version\ 1.2.1\r\n
+comment1.params=value\ fontSize
+comment1.target=Label(java.lang.String,\ int)
+comment1.text=\r\n\ Creates\ a\ default\ label\ with\ customizable\ font\ size\ and\ text.\ The\ text\ would\ have\ a\ white\ colour\ with\ a\ black\ outline\r\n\ \r\n\ @param\ value\ \ \ \ \ The\ text\ that\ you\ want\ to\ label\ to\ have\r\n\ @param\ fontSize\ \ The\ desired\ fontSize\r\n
+comment2.params=value\ fontSize\ isRed
+comment2.target=Label(java.lang.String,\ int,\ boolean)
+comment2.text=\r\n\ Create\ a\ new\ label,\ but\ the\ text\ colour\ will\ be\ red\ if\ isRed\ is\ true\ or\ blue\ if\ it\ is\ false,\ initialises\ it\ with\ the\ needed\ text\ and\ the\ font\ size.\r\n\ \r\n\ @param\ value\ \ \ \ \ The\ text\ that\ you\ want\ to\ label\ to\ have\r\n\ @param\ fontSize\ \ The\ desired\ fontSize\r\n\ @param\ isRed\ \ \ \ \ A\ boolean\ state\ whether\ the\ text\ colour\ is\ red\ or\ blue\r\n
+comment3.params=value
+comment3.target=void\ setValue(java.lang.String)
+comment3.text=\r\n\ Sets\ the\ value\ as\ a\ text\r\n\ \r\n\ @param\ value\ \ \ \ \ The\ text\ to\ be\ show\r\n
+comment4.params=value
+comment4.target=void\ setValue(int)
+comment4.text=\r\n\ Sets\ the\ value\ as\ an\ integer\r\n\ \r\n\ @param\ value\ the\ value\ to\ be\ show\r\n
+comment5.params=lineColor
+comment5.target=void\ setLineColor(greenfoot.Color)
+comment5.text=\r\n\ Sets\ the\ line\ color\ of\ the\ text\r\n\ \r\n\ @param\ lineColor\ the\ line\ color\ of\ the\ text\r\n
+comment6.params=fillColor
+comment6.target=void\ setFillColor(greenfoot.Color)
+comment6.text=\r\n\ Sets\ the\ fill\ color\ of\ the\ text\r\n\ \r\n\ @param\ fillColor\ the\ fill\ color\ of\ the\ text\r\n
+comment7.params=
+comment7.target=void\ updateImage()
+comment7.text=\r\n\ Updates\ the\ image\ on\ screen\ to\ show\ the\ current\ text\ with\ its\ specified\ font\ size\ and\ colour.\r\n
+numComments=8

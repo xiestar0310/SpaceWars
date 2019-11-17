@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Timer
+comment0.text=\r\n\ Timer\ is\ a\ Greenfoot\ Actor\ that\ creates\ an\ in-game\ countdown\r\n\ object.\ The\ countdown\ is\ displayed\ through\ a\ circle\ and\ numbers\ counting\r\n\ down\ inside\ the\ circle.\ When\ it\ reaches\ zero,\ it\ removes\ itself\ from\r\n\ the\ world\r\n\ \r\n\ @author\ Albert\ Lai,\ Star\ Xie\r\n\ @version\ November\ 2019\r\n
+comment1.params=
+comment1.target=Timer()
+comment1.text=\r\n\ Main\ Constructor\ initializes\ initial\ values\ and\ is\ only\ called\ \r\n\ by\ the\ other\ constructors,\ not\ intended\ to\ be\ called\ directly.\r\n
+comment2.params=maxMilliSeconds
+comment2.target=Timer(int)
+comment2.text=\r\n\ Constructor\ takes\ one\ int,\ for\ objects\ with\ a\ max\ time\ to\ count\ down\ from.\r\n\ Both\ the\ current\ time\ and\ max\ time\ will\ be\ set\ to\ the\ same\ value.\r\n\ \r\n\ @param\ maxMilliSeconds\ \ \ \ \ \ Maximum\ time\ to\ start\ countdown\ at\r\n
+comment3.params=red\ maxMilliSeconds\ milliSeconds
+comment3.target=Timer(boolean,\ int,\ int)
+comment3.text=\r\n\ Constructor\ takes\ two\ ints\ for\ objects\ with\ a\ max\ time\ to\ countdown\ \r\n\ from\ and\ a\ current\ time\ value,\ which\ will\ both\ be\ set\ accordingly.\ It\ \r\n\ also\ takes\ a\ boolean,\ representing\ the\ team\ and\ uses\ it\ to\ set\ the\ color.\r\n\ \r\n\ @param\ maxMilliSeconds\ \ Max\ amount\ of\ milliSeconds\ the\ countdown\ can\ hold\r\n\ @param\ milliSeconds\ \ \ \ \ Time\ the\ countdown\ will\ start\ at\r\n\ @boolean\ red\ \ \ \ \ \ \ \ \ \ \ \ specifies\ the\ team\ (true\ for\ Red\ and\ false\ for\ Blue)\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Executes\ whatever\ the\ Timer\ wants\ to\ do.\ The\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment5.params=
+comment5.target=int\ getTime()
+comment5.text=\r\n\ Returns\ the\ amount\ of\ time\ left\ on\ the\ timer\r\n\ \r\n\ @return\ int\ \ \ \ \ \ Amount\ of\ time\ left\ (milliSeconds)\r\n
+comment6.params=
+comment6.target=void\ updateImage()
+comment6.text=\r\n\ Creates\ various\ amounts\ of\ sectors\ to\ be\ filled,\ updates\ the\ image\ and\ position\r\n\ of\ the\ timer\ each\ time\ by\ decreasing\ or\ increasing\ sectors\ of\ a\ circle\r\n
+numComments=7

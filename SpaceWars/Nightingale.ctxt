@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Nightingale
+comment0.text=\r\n\ Nightingale\ defends\ base\ when\ enemy\ vehicles\ are\ present\r\n\ otherwise\ attack\ buildings,\ while\ using\ bullets\ to\ deal\ damage\r\n\ \r\n\ @author\ Henry\ Ma,\ Debugging(Albert\ Lai\ and\ Star\ Xie)\ \r\n\ @version\ November\ 2019\r\n
+comment1.params=red
+comment1.target=Nightingale(boolean)
+comment1.text=\r\n\ Constructor\ for\ Nightingale\ that\ sets\ initial\ values\ and\ images\r\n\ \r\n\ @param\ red\ \ \ \ \ \ \ Team\ of\ the\ unit(true\ for\ red,\ false\ for\ blue)\r\n
+comment2.params=
+comment2.target=boolean\ checkEnemies()
+comment2.text=\r\n\ Checks\ if\ enemies\ vehicles\ are\ in\ the\ world\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ Checks\ if\ it\ enemies\ are\ in\ the\ world\ if\ not\ it\ attacks\ buildings,\ \r\n\ while\ also\ removing\ itself\ if\ hp\ is\ 0\r\n
+numComments=4

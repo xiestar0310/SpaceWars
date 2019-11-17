@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GameOver
+comment0.text=\r\n\ GameOver\ -\ the\ game\ over\ screen,\ which\ shows\ up\ when\ the\ game\ ends.\ It\ shows\ the\r\n\ stats\ of\ length\ of\ game\ and\ the\ kills\ per\ each\ side.\ It\ also\ has\ a\ button\ to\ \r\n\ allow\ the\ user\ to\ restart\ the\ game.\r\n\ \r\n\ @author\ Albert\ Lai\r\n\ @version\ November\ 2019\r\n
+comment1.params=red\ milliseconds\ redKills\ blueKills
+comment1.target=GameOver(boolean,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ -\ sets\ the\ image,\ adds\ the\ labels\ and\ buttons,\ and\ plays\ the\ music\r\n\ \r\n\ @param\ red\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ specifies\ the\ winning\ team\ (true\ for\ red,\ false\ for\ blue)\r\n\ @param\ milliseconds\ \ \ \ \ \ how\ long\ the\ simulation\ lasted\ in\ milliseconds\ \r\n\ @param\ redKills\ \ \ \ \ \ \ \ \ \ amount\ of\ red\ kills\r\n\ @param\ blueKills\ \ \ \ \ \ \ \ \ amount\ of\ blue\ kills\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ checks\ if\ the\ reStart\ button\ is\ pressed.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

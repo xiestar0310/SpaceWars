@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Buildings
+comment0.text=\r\n\ Buildings\ -\ abstract\ class\ of\ all\ standing\ unmoving\ big\ structures.\ \r\n\ \r\n\ @author\ Albert\ Lai\ and\ Alex\ Li\r\n\ @version\ November\ 2019\r\n
+comment1.params=red\ hp
+comment1.target=Buildings(boolean,\ int)
+comment1.text=\r\n\ Constructor\ -\ calls\ the\ superclass\ and\ creates\ the\ healthbar\r\n\ \r\n\ @param\ red\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ specifies\ the\ team\ (true\ for\ red,\ false\ for\ blue)\r\n\ @param\ hp\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ amount\ of\ hp\ of\ the\ building\r\n
+comment2.params=
+comment2.target=boolean\ getRed()
+comment2.text=\r\n\ getRed\ -\ returns\ the\ team\ of\ the\ building\r\n\ \r\n\ @return\ boolean\ \ \ \ \ \ \ \ \ \ \ specifies\ the\ team\ (true\ for\ red,\ false\ for\ blue)\r\n
+comment3.params=damage
+comment3.target=void\ getHit(int)
+comment3.text=\r\n\ getHit\ -\ deals\ damage\ to\ the\ building\ \r\n\ \r\n\ @param\ damage\ \ \ \ \ \ \ \ \ \ \ \ amount\ of\ damage\ to\ transfer\ to\ building\r\n
+comment4.params=
+comment4.target=void\ checkBlowUp()
+comment4.text=\r\n\ checkBlowUp\ -\ checks\ if\ building\ is\ destroyed.\ To\ be\ implemented\ in\ subclasses\r\n
+numComments=5

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Bullet
+comment0.text=\r\n\ Bullet-\ a\ subclass\ of\ Ammunition\ where\ bullets\ are\ made.\ Bullets\ follow\ a\r\n\ straight\ line\ path\ from\ the\ angle\ they\ are\ shot\ at\ and\ will\ do\ a\ constant\r\n\ damage\ to\ the\ HP\ of\ the\ Building/Vehicle\ that\ it\ hits.\r\n\ \r\n\ @author\ Star\ Xie,\ Albert\ Lai\r\n\ @version\ November\ 2019\r\n
+comment1.params=red\ actor\ damage
+comment1.target=Bullet(boolean,\ greenfoot.Actor,\ int)
+comment1.text=\r\n\ Constructor\ -\ creates\ a\ Bullet,\ sets\ the\ team,\ targets\ an\ Actor,\ and\ specifies\ damage\ dealt\r\n\ \r\n\ @param\ red\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ specifies\ the\ team\ (true\ for\ red,\ false\ for\ blue)\r\n\ @param\ actor\ \ \ \ \ \ \ \ \ \ \ \ \ the\ specific\ object\ that\ is\ being\ targetted\r\n\ @param\ damage\ \ \ \ \ \ \ \ \ \ \ \ specifies\ the\ damage\ taken\ for\ each\ hit\r\n
+comment2.params=w
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment2.text=\r\n\ addedToWorld\ -\ Turns\ towards\ a\ specified\ vehicle\ or\ building\ when\r\n\ the\ Bullet\ object\ is\ added\ to\ the\ world\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ Bullet\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=
+comment4.target=void\ checkAndHit()
+comment4.text=\r\n\ checkAndHit\ -\ checks\ if\ the\ Bullet\ has\ hit\ a\ Vehicle\ or\ Building\ \r\n\ and\ deals\ damage\ to\ their\ HP\ if\ collision\ is\ detected.\r\n
+numComments=5

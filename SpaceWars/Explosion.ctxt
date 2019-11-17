@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Explosion
+comment0.text=\r\n\ Explosion\ is\ an\ actor\ that\ plays\ an\ explosion\ when\ added\ to\ to\ world\r\n\ \r\n\ @author\ Alex\ Li\ \r\n\ @version\ 1.1.1\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ plays\ and\ explosion.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=2

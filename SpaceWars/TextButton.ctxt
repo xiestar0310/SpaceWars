@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TextButton
+comment0.text=\r\n\ A\ Generic\ Button\ to\ display\ text\ that\ is\ clickable.\ \r\n\ \r\n\ This\ should\ be\ added\ to,\ and\ controlled\ by,\ a\ world.\r\n\ \r\n\ @author\ Jordan\ Cohen\ \r\n\ @author\ Alex\ Li\r\n\ @version\ v1.0.1\r\n
+comment1.params=text\ textSize\ isRed\ statValue
+comment1.target=TextButton(java.lang.String,\ int,\ boolean,\ int)
+comment1.text=\r\n\ Constructs\ a\ TextButton\ given\ a\ String\ and\ a\ text\ size\r\n\ @param\ String\ \ \ \ \ \ \ \ String\ to\ be\ displayed\r\n\ @param\ textSize\ \ \ \ \ \ The\ size\ of\ the\ text\ to\ be\ displayed\r\n\ @param\ isRed\ \ \ \ \ \ \ \ \ Changes\ the\ colour\ of\ the\ text\ depending\ on\ isRed\r\n\ @param\ statValue\ \ \ \ \ The\ value\ of\ the\ stat\ that\ the\ button\ holds\r\n
+comment2.params=text\ textSize\ regularBtn
+comment2.target=TextButton(java.lang.String,\ int,\ boolean)
+comment2.text=\r\n\ Creates\ a\ default\ button\ that\ only\ holds\ text.\ It\ has\ black\ text,\ a\ black\ border,\ and\ a\ white\ background.\ This\ button\ will\ not\ display\ as\ a\ \r\n\ regular\ button\ if\ regularBtn\ is\ false\r\n\ @param\ String\ \ \ \ \ \ \ \ String\ to\ be\ displayed\r\n\ @param\ textSize\ \ \ \ \ \ The\ size\ of\ the\ text\ to\ be\ displayed\r\n\ @param\ regularBtn\ \ \ \ A\ boolean\ to\ state\ whether\ this\ is\ a\ regular\ button\ or\ not\r\n
+comment3.params=text
+comment3.target=void\ updateMe(java.lang.String)
+comment3.text=\r\n\ Updates\ the\ current\ TextButton\ text\r\n\ @param\ text\ \ \ \ \ \ The\ text\ to\ be\ displayed\r\n
+comment4.params=
+comment4.target=void\ Update()
+comment4.text=\r\n\ Updates\ button\ to\ be\ pressed\ (changes\ its\ image)\r\n
+comment5.params=
+comment5.target=void\ buttonReset()
+comment5.text=\r\n\ Resets\ the\ button\ to\ no\ be\ pressed\ (changes\ its\ image)\r\n
+comment6.params=
+comment6.target=int\ getStatValue()
+comment6.text=\r\n\ Returns\ the\ statValue\ that\ the\ button\ holds\r\n\ @return\ int\ \ \ \ \ \ The\ statValue\ that\ the\ button\ holds\r\n
+numComments=7

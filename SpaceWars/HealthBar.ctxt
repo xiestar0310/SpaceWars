@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=HealthBar
+comment0.text=\r\n\ HealthBar\ creates\ a\ customizable\ bar.\r\n\ Can\ be\ used\ as\ a\ HealthBar\r\n\ (for\ keeping\ track\ of\ health\ of\ an\ object).\r\n\ Can\ be\ used\ as\ a\ energy/timer\ bar\r\n\ (for\ decreasing\ of\ a\ resource\ at\ a\ set\ rate).\r\n\ \r\n\ Takes\ in\ Integers\ and\ Greenfoot\ Objects(ex.color)\r\n\ \r\n\ @author\ Henry\ Ma\ \r\n\ @version\ 1\ \r\n
+comment1.params=x\ y\ max\ m
+comment1.target=HealthBar(int,\ int,\ int,\ greenfoot.Color)
+comment1.text=\r\n\ Creates\ a\ health\ bar\ \r\n\ \r\n\ @param\ x\ X\ size/width\ of\ health\ bar\r\n\ @param\ y\ Y\ size/height\ of\ health\ bar\r\n\ @param\ max\ Max\ value\ of\ health\ bar(max\ HP)\r\n\ @param\ m\ Color\ of\ middle\ bar(reflects\ current\ HP)\r\n
+comment2.params=current\ maxValue\ m
+comment2.target=void\ drawBar(int,\ int,\ greenfoot.Color)
+comment2.text=\r\n\ Draws\ bar/image\ for\ HealthBar\r\n\ \r\n\ @param\ current\ Current\ value\ of\ resource\r\n\ @param\ maxValue\ Max\ value\ of\ resource\r\n\ @param\ m\ Color\ of\ middle\ bar(reflects\ current\ resource)\r\n
+comment3.params=newValue\ m
+comment3.target=void\ update(int,\ greenfoot.Color)
+comment3.text=\r\n\ Updates\ value\ of\ current\ resource\r\n\ \r\n\ @param\ newValue\ New\ value\ of\ resource(update\ to\ this\ value)\r\n\ @param\ m\ Color\ of\ middle\ bar(reflects\ resource)\r\n
+comment4.params=x\ y
+comment4.target=void\ follow(int,\ int)
+comment4.text=\r\n\ Sets\ bar\ to\ location\ given\ by\ x\ and\ y\r\n\ \r\n\ @param\ x\ X\ coordinate\ to\ be\ placed\r\n\ @param\ y\ Y\ coordinate\ to\ be\ placed\r\n
+numComments=5

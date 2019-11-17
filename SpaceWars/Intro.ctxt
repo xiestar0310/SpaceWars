@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Intro
+comment0.text=\r\n\ Introduction\ to\ the\ game\r\n\ \r\n\ @author\ Albert\ Lai\r\n\ @version\ November\ 2019\r\n
+comment1.params=
+comment1.target=Intro()
+comment1.text=\r\n\ Adds\ the\ button\ to\ begin\ the\ simulation\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ checks\ if\ the\ reStart\ button\ is\ pressed.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

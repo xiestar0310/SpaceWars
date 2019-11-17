@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Mines
+comment0.text=\r\n\ Mines\ -\ the\ money\ generating\ machines.\ Miners\ work\ in\ them\ to\ make\ money\ for\ the\ war\ \r\n\ effort.\ A\ maximum\ of\ 10\ workers\ can\ work\ in\ each\ mine\ and\ the\ world\ starts\ off\ with\ 4\r\n\ mines.\ Every\ mine\ starts\ off\ at\ level\ one,\ and\ can\ be\ levelled\ up\ to\ level\ 4.\ Higher\ level\r\n\ mines\ make\ more\ money\ per\ miner.\ Once\ mines\ are\ destroyed,\ they\ cannot\ be\ rebuilt.\ \r\n\ \r\n\ @author\ Albert\ Lai\r\n\ @version\ November\ 2019\r\n
+comment1.params=red
+comment1.target=Mines(boolean)
+comment1.text=\r\n\ Constructor\ -\ creates\ a\ Mine\ and\ sets\ the\ image\r\n\ \r\n\ @param\ red\ \ \ \ \ \ \ specifies\ the\ team\ (true\ for\ red,\ false\ for\ blue)\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Mines\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ checkBlowUp()
+comment3.text=\r\n\ checkBlowUp\ -\ checks\ if\ the\ Mine\ is\ destroyed\ and\ if\ it\ is,\ removes\ it\ from\ the\ \r\n\ world,\ creates\ an\ explosion,\ and\ updates\ the\ world\ stat\r\n
+comment4.params=
+comment4.target=boolean\ isFull()
+comment4.text=\r\n\ isFull\ -\ checks\ if\ the\ mines\ is\ at\ full\ capacity\r\n\ \r\n\ @return\ boolean\ \ \ \ \ \ \ \ \ true\ if\ mines\ is\ full\ and\ false\ if\ not\r\n
+comment5.params=
+comment5.target=void\ incrementMiner()
+comment5.text=\r\n\ incrementMiner\ -\ increases\ the\ numbers\ of\ miners\ by\ 1\r\n
+comment6.params=
+comment6.target=int\ getMineLevel()
+comment6.text=\r\n\ getMineLevel\ -\ returns\ the\ level\ of\ the\ mine\r\n\ \r\n\ @return\ int\ \ \ \ \ \ \ \ \ the\ level\ of\ the\ mine\r\n
+comment7.params=
+comment7.target=void\ levelUp()
+comment7.text=\r\n\ levelUp\ -\ levels\ up\ the\ factory\ and\ sets\ the\ image\ accordingly\r\n
+numComments=8

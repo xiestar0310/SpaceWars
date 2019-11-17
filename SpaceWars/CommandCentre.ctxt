@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=CommandCentre
+comment0.text=\r\n\ CommandCentre\ -\ the\ commander\ of\ each\ side.\ They\ make\ the\ workers\ and\ miners,\ level\ up\ factories\ \r\n\ and\ mines,\ and\ order\ the\ factories\ to\ make\ vehicles.\ It\ lights\ up\ whenver\ it\ makes\ a\ person.\ \ \r\n\ When\ the\ CommandCentre\ explodes,\ the\ war\ is\ lost.\ \r\n\ \r\n\ @author\ Albert\ Lai\ and\ Alex\ Li\r\n\ @version\ November\ 2019\r\n\ \r\n
+comment1.params=red
+comment1.target=CommandCentre(boolean)
+comment1.text=\r\n\ Constructor\ -\ creates\ a\ Command\ Centre,\ sets\ the\ image,\ and\ starts\ the\ gametime\r\n\ \r\n\ @param\ red\ \ \ \ \ \ \ specifies\ the\ team\ (true\ for\ red,\ false\ for\ blue)\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ CommandCentre\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ animation()
+comment3.text=\r\n\ Animation\ -\ makes\ the\ CommandCentre\ light\ up\ whenever\ producing\ a\ unit\r\n
+comment4.params=
+comment4.target=void\ checkBlowUp()
+comment4.text=\r\n\ checkBlowUp\ -\ checks\ if\ the\ CommandCentre\ is\ destroyed\ and\ if\ it\ is,\ removes\ it\ from\ the\ \r\n\ world,\ creates\ an\ explosion,\ and\ ends\ the\ game\ by\ setting\ the\ GameOver\ world\r\n
+comment5.params=
+comment5.target=void\ upgrade()
+comment5.text=\r\n\ upgrade\ -\ randomly\ upgrades\ a\ mine\ or\ a\ factory.\ \r\n
+comment6.params=
+comment6.target=boolean\ addToProductionQueueUnit()
+comment6.text=\r\n\ addToProductionQueueUnit\ -\ adds\ a\ vehicle\ to\ the\ queue\ of\ the\ factory\ with\ the\ lowest\ time\r\n\ \r\n\ @return\ boolean\ \ \ \ \ \ \ \ \ true\ if\ vehicle\ was\ added\ to\ the\ queue\ and\ false\ if\ not\ \ \r\n
+comment7.params=
+comment7.target=void\ makePersonUnit()
+comment7.text=\r\n\ makePersonUnit\ -\ creates\ either\ a\ worker\ or\ a\ miner\ randomly.\ \r\n
+numComments=8

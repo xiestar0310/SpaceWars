@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Ammunition
+comment0.text=\r\n\ Abstract\ class\ of\ all\ dynamic\ and\ moving\ objects\ used\ to\ deal\ damage.\r\n\ \r\n\ @author\ Star\ Xie\ \r\n\ @version\ November\ 2019\r\n
+comment1.params=red\ actor\ damage\ speed
+comment1.target=Ammunition(boolean,\ greenfoot.Actor,\ int,\ int)
+comment1.text=\r\n\ Constructor\ -\ calls\ the\ superclass\ and\ initializes\ values\ \r\n\ \r\n\ @param\ red\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ specifies\ the\ team\ (true\ for\ red,\ false\ for\ blue)\r\n\ @param\ actor\ \ \ \ \ \ \ \ \ \ \ \ \ the\ specific\ object\ that\ is\ being\ targeted\r\n\ @param\ damage\ \ \ \ \ \ \ \ \ \ \ \ specifies\ the\ damage\ taken\ for\ each\ hit\r\n\ @param\ speed\ \ \ \ \ \ \ \ \ \ \ \ \ the\ speed\ that\ the\ Ammunition\ travels\ at\r\n
+comment2.params=
+comment2.target=void\ checkAndHit()
+comment2.text=\r\n\ checkAndHit\ -\ checks\ if\ the\ Ammunition\ has\ hit\ a\ Vehicle\ or\ Building.\ To\ be\ implemented\ in\ subclasses\r\n
+numComments=3

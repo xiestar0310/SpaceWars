@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Hyperion
+comment0.text=\r\n\ Hyperion\ targets\ and\ attacks\ all\ enemy\ objects\r\n\ while\ also\ shooting\ missiles\ instead\ of\ bullets\r\n\ \r\n\ @author\ Henry\ Ma,\ Debugging(Albert\ Lai\ and\ Star\ Xie)\ \r\n\ @version\ November\ 2019\r\n
+comment1.params=red
+comment1.target=Hyperion(boolean)
+comment1.text=\r\n\ Constructor\ for\ Hyperion\ that\ sets\ initial\ values\ and\ images\r\n\ \r\n\ @param\ red\ \ \ \ \ \ \ Team\ of\ the\ unit(true\ for\ red,\ false\ for\ blue)\r\n
+comment2.params=r\ a\ damage
+comment2.target=void\ shootMissile(boolean,\ greenfoot.Actor,\ int)
+comment2.text=\r\n\ Shoots\ and\ creates\ a\ missile\ that\ deals\ damage\r\n\ \r\n\ @param\ r\ \ \ \ \ \ \ \ \ Team\ of\ the\ missile(attacks\ opposite\ team)\r\n\ @param\ a\ \ \ \ \ \ \ \ \ Actor\ the\ missile\ targets\r\n\ @param\ damage\ \ \ \ Damage\ the\ missile\ does\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ Checks\ for\ enemies\ and\ targets\ said\ enemies,\r\n\ then\ shoots\ missiles\ if\ in\ range\r\n
+numComments=4
