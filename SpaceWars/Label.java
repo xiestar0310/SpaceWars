@@ -23,7 +23,6 @@ public class Label extends Actor
     private static boolean done = false;
     //fonts and images
     private Font textFont;
-    private GreenfootImage img;
     /**
      * Creates a default label with customizable font size and text. The text would have a white colour with a black outline
      * 
@@ -34,7 +33,6 @@ public class Label extends Actor
     {
         this.value = value;
         this.fontSize = fontSize;
-        textFont = new Font (java.awt.Font.DIALOG, fontSize);
         updateImage();
     }
 
@@ -54,7 +52,6 @@ public class Label extends Actor
         lineColor = Color.WHITE;
         this.value = value;
         this.fontSize = fontSize;
-        textFont = new Font (java.awt.Font.DIALOG,fontSize);
         updateImage();
     }
 
@@ -111,16 +108,6 @@ public class Label extends Actor
     private void updateImage()
     {
         //creates a new image and sets the font
-        img = new GreenfootImage(value, fontSize, fillColor, transparent, lineColor);
-        /*img.clear();
-        img.setFont(textFont);
-        img.setColor(fillColor);
-        img.drawString(value,0,fontSize);*/
-        setImage(img);
-        /*
-        if(!done){
-            done=true;
-            System.out.println(img.getFont().toString());
-        }*/
+        setImage(new GreenfootImage(value, fontSize, fillColor, transparent, lineColor));
     }
 }

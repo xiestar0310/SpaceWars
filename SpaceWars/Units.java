@@ -27,6 +27,7 @@ public abstract class Units extends Actor
     }
     /**
      * Returns the team of the unit
+     * @return boolean  Team of unit(true for red, false for blue)
      */
     public boolean getRed()
     {  

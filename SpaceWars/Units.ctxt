@@ -6,5 +6,5 @@ comment1.target=Units(int,\ boolean)
 comment1.text=\r\n\ \ Constructor\ -\ Constructor\ for\ all\ subclasses\r\n\ \ \r\n\ \ @param\ speed\ \ \ \ Speed\ of\ unit(amount\ moved\ per\ move)\r\n\ \ @param\ red\ \ \ \ \ \ Team\ of\ unit(true\ for\ red,\ false\ for\ blue)\r\n
 comment2.params=
 comment2.target=boolean\ getRed()
-comment2.text=\r\n\ Returns\ the\ team\ of\ the\ unit\r\n
+comment2.text=\r\n\ Returns\ the\ team\ of\ the\ unit\r\n\ @return\ boolean\ \ Team\ of\ unit(true\ for\ red,\ false\ for\ blue)\r\n
 numComments=3

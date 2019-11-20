@@ -105,7 +105,6 @@ public class CommandCentre extends Buildings
                 isAnimating = false;
             } 
         }
-
     }    
 
     /**

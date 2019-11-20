@@ -28,7 +28,8 @@ public class Miners extends Units
     public Miners(boolean red)
     {
         super(SpaceWorld.MINER_SPEED, red);
-
+        
+        //declares initial images
         if(!declaredImages){
             for(int i=0;i<moveUp.length;i++)
             {
@@ -41,6 +42,7 @@ public class Miners extends Units
             declaredImages=true;
         }
         
+        //sets the image
         if (red) {
             setImage(moveUp[0]);
         } else {
@@ -184,7 +186,6 @@ public class Miners extends Units
     {
         turnTowards(targetMine.getX(), targetMine.getY());
         move (speed);
-
     }
 
 }

@@ -12,10 +12,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class TextButton extends Actor
 {
     // Declare variables
-    private GreenfootImage myImage = new GreenfootImage(1,1);
-    private GreenfootImage myAltImage = new GreenfootImage(1,1);
+    private GreenfootImage myImage;
+    private GreenfootImage myAltImage;
     private String buttonText;
-    private Font textFont;
     private int textSize, statValue;
     private boolean isRed, regularBtn;
     /**
@@ -30,9 +29,6 @@ public class TextButton extends Actor
         buttonText = text;
         //sets the text size
         this.textSize = textSize;
-        textFont = new Font ("Calibri", textSize);
-        myImage.setFont(textFont);
-        myAltImage.setFont(textFont);
         //sets isRed
         this.isRed = isRed;
         //sets statValue
@@ -52,9 +48,6 @@ public class TextButton extends Actor
         buttonText = text;
         //sets text size
         this.textSize = textSize;
-        textFont = new Font ("Calibri", textSize);
-        myImage.setFont(textFont);
-        myAltImage.setFont(textFont);
         //sets whether or not this is a regular Btn
         this.regularBtn = regularBtn;
         // Draw a button with centered text:

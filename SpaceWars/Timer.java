@@ -1,5 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+import java.awt.geom.Arc2D;
+import java.awt.geom.Arc2D.Float;
 /**
  * Timer is a Greenfoot Actor that creates an in-game countdown
  * object. The countdown is displayed through a circle and numbers counting
@@ -25,9 +26,6 @@ public class Timer extends Actor
     private Color outlineColor;
     private Color textColor;
 
-    //declare Font
-    private Font textFont;
-
     //Declare Greenfoot Image
     private GreenfootImage circle;
     private GreenfootImage text = new GreenfootImage(1,1);
@@ -50,8 +48,6 @@ public class Timer extends Actor
         circleColor = Color.RED;
         outlineColor = Color.BLUE; 
         textColor = Color.WHITE;
-        textFont = new Font ("Calibri", textSize);
-        text.setFont(textFont);
         updateImage();
     }
 
@@ -162,7 +158,7 @@ public class Timer extends Actor
                 //draw triangle
                 circle.fillPolygon(new int[] { radiusSize, (int)lastX, (int)newX}, new int[] { radiusSize, (int)lastY, (int)newY}, 3);
                 lastX = newX; lastY = newY;
-            }    
+            }
         }
         //Draws an image to display the numbers 
         text = new GreenfootImage(String.valueOf(milliSeconds/1000), this.textSize,this.textColor, null);

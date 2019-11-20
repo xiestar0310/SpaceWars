@@ -32,6 +32,7 @@ public class Mines extends Buildings
      */
     public Mines(boolean red){
         super(red, SpaceWorld.MINE_HP); 
+        //set mine image
         if(red) setImage(MineRed[0]);
         else setImage(MineBlue[0]);
         timer.mark();
