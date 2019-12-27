@@ -13,10 +13,9 @@ In the start screen, the user can specify parameters to start (the Viking is a t
 
 ## How to Run
 1. Download [Greenfoot](https://www.greenfoot.org/download)
-2. `git clone link_of_this_repository`
-3. `cd SpaceWars`
-4. Open *project.greenfoot*
-5. Click *Run* to begin the simulation! 
+2. Click `Open in Greenfoot` [here](https://www.greenfoot.org/scenarios/24799).
+3. Open *project.greenfoot*
+4. Click *Run* to begin the simulation! 
 
 ## How the Game Works
 Check out the [game overview](Overview.pdf), [API](API.pdf), and [class diagram](ClassDiagrams.pdf) to learn more!
