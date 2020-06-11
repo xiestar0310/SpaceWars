@@ -25,3 +25,5 @@ Check out the [game overview](Overview.pdf), [API](API.pdf), and [class diagram]
 **Graphics:** Clash of Clans, StarCraft, Clash of Lords, sccpre.cat, pngkey.com, topping.com, Roblox, Gaurav.munjal.us, wallpaperplay.com
 
 **Music:** Relaxation Ambient Music (AMAZING SPACE TRAVELING), www.gamedevmarket.net (TOP DOWN SHOOTER – 1)
+
+**Team Members:** Star Xie, Albert Lai, Alex Li, Henry Ma, Aristos Theocharoulas
