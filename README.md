@@ -26,4 +26,4 @@ Check out the [game overview](Overview.pdf), [API](API.pdf), and [class diagram]
 
 **Music:** Relaxation Ambient Music (AMAZING SPACE TRAVELING), www.gamedevmarket.net (TOP DOWN SHOOTER – 1)
 
-**Team Members:** Star Xie, Albert Lai, Alex Li, Henry Ma, Aristos Theocharoulas
+**Team Members:** Albert Lai, Alex Li, Henry Ma, Aristos Theocharoulas, Star Xie
